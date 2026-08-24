@@ -1,0 +1,5 @@
+Recommended license: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Copyright (c) 2026 Abhilash Deori.
+This package is intended to be released under CC BY 4.0 upon public deposition.

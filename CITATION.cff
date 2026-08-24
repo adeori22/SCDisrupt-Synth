@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it."
+title: "SCDisrupt-Synth v1.0: A Multi-Source Synthetic Benchmark Dataset for Supply Chain Disruption Early-Warning Research"
+type: dataset
+authors:
+  - family-names: "Deori"
+    given-names: "Abhilash"
+version: "1.0"
+date-released: "2026-08-23"
+license: "CC-BY-4.0"
+keywords:
+  - supply chain disruption
+  - NLP
+  - transformers
+  - BERT
+  - early warning
+  - synthetic dataset

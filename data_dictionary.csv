@@ -1,0 +1,17 @@
+field,type,description
+record_id,string,Unique source-level record identifier.
+window_id,string,Groups the four source observations that belong to the same prediction window.
+observation_date,date,Date on which the synthetic textual signal is observed.
+event_date,date/blank,Synthetic disruption date for positive windows; blank for negative windows.
+source_type,categorical,"One of news, social_media, supplier_communication, financial_report."
+industry,categorical,Synthetic industry sector context.
+region,categorical,Synthetic geographic region context.
+signal_text,text,Synthetic text signal. Does not reproduce real company communications or confidential data.
+source_signal_score,float,"Synthetic source-level risk-signal strength in [0,1]. Not a model prediction."
+disruption_imminent,binary,1 if a disruption is synthetically labeled within 14 days; otherwise 0.
+disruption_category,categorical,Synthetic disruption taxonomy; 'none' for negative windows.
+severity,categorical,"none, low, medium, high, or critical."
+lead_time_days,integer/blank,Days between observation and synthetic disruption date for positive windows.
+split,categorical,"Temporal split: train, validation, or test."
+synthetic,binary,Always 1; explicit indicator that all rows are synthetic.
+annotation_basis,string,How labels were generated.
