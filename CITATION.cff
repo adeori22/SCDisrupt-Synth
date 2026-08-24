@@ -6,6 +6,7 @@ authors:
   - family-names: "Deori"
     given-names: "Abhilash"
 version: "1.0"
+doi: 10.5281/zenodo.22073886
 date-released: "2026-08-23"
 license: "CC-BY-4.0"
 keywords:
